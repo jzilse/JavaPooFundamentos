@@ -19,3 +19,16 @@ O objetivo principal é consolidar os fundamentos da linguagem Java e avançar a
 - **Coleções e Utilitários:** `String`, `StringBuilder`, `Arrays`, `ArrayList`, entre outros.
 
 ---
+
+## 🧩 Módulos e Conceitos Aplicados
+
+| Pacote | Conceito de POO | Classes de Domínio Implementadas |
+| :--- | :--- | :--- |
+| `encapsulamento` | Proteção de estado e regras de acesso | `ContaBancaria` |
+| `heranca` | Reaproveitamento e especialização de classes | `Membro`, `MembroVip`, `MembroRegular` |
+| `classesabstratas` | Modelos base e polimorfismo | `Notificacao`, `NotificacaoEmail`, `NotificacaoSms` |
+| `interfaces` | Contratos e arquitetura de execução de testes | `ExecutavelDeTeste`, `TesteUnitario`, `TesteIntegracao`, `TesteDeCarga`, `CarregandoMassaDeDados`, `LimparAmbiente` |
+| `associacao` | Relacionamentos (1:1, 1:N, N:N) | `Escola`, `Professor`, `Aluno`, `Seminario`, `Local`, `Livro`, `Autor`, `Empresa` |
+| `enums` | Tipagem segura e constantes de domínio | `Cliente`, `Jogador`, `StatusPedido`, `TipoPagamento` |
+| `metodos` & `sobrecargametodos` | Sobrecarga (`Overload`) e regras de negócio | `CalculadoraEstatistica`, `CalculadoraGeometrica`, `Livraria`, `Livro`, `ContaBancaria` |
+| `modificadorfinal` & `tostring` | Imutabilidade (`final`) e representação textual | `ConfiguracaoSistema`, `DiretorioLog`, `Usuario` |
